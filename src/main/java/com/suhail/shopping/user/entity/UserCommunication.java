@@ -6,6 +6,30 @@
  *
  */
 
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
 package com.suhail.shopping.user.entity;
 
 import com.suhail.shopping.common.entity.BaseEntity;

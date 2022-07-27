@@ -6,6 +6,30 @@
  *
  */
 
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
 package com.suhail.shopping.user.entity;
 
 import com.suhail.shopping.common.entity.BaseEntity;
@@ -22,6 +46,9 @@ public class Permission extends BaseEntity {
     private String value;
 
     // add constructors
+
+    public Permission() {
+    }
 
     public Permission(String value) {
         this.value = value;

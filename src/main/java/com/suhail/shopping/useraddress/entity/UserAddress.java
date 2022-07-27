@@ -10,7 +10,6 @@ package com.suhail.shopping.useraddress.entity;
 
 import com.suhail.shopping.common.entity.BaseEntity;
 import com.suhail.shopping.user.entity.User;
-import org.springframework.core.SpringVersion;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

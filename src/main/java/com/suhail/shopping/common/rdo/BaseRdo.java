@@ -13,6 +13,7 @@ import java.util.Date;
 
 public class BaseRdo<T> {
     private T data;
+
     private Date date;
 
     public BaseRdo() {

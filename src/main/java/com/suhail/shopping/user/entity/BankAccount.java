@@ -6,6 +6,30 @@
  *
  */
 
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
+/*
+ *
+ *  *
+ *  * Created by Suhail Khan
+ *  *
+ *
+ */
+
 package com.suhail.shopping.user.entity;
 
 import com.suhail.shopping.common.entity.BaseEntity;
@@ -15,7 +39,7 @@ import java.sql.Timestamp;
 
 @Entity
 @Table(name = "bank_account")
-public class BankAccount extends BaseEntity{
+public class BankAccount extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")

@@ -8,11 +8,7 @@
 
 package com.suhail.shopping.user.qdo;
 
-import javax.persistence.Column;
-
-public class UserCreateQdo {
-
-    private String userName;
+public class UserUpdateQdo {
 
     private String firstName;
 
@@ -20,16 +16,10 @@ public class UserCreateQdo {
 
     private String lastName;
 
-    private String password;
-
-    private Integer userType;
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public UserUpdateQdo(String firstName, String middleName, String lastName) {
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
@@ -56,19 +46,12 @@ public class UserCreateQdo {
         this.lastName = lastName;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public Integer getUserType() {
-        return userType;
-    }
-
-    public void setUserType(Integer userType) {
-        this.userType = userType;
+    @Override
+    public String toString() {
+        return "UserUpdateQdo{" +
+                "firstName='" + firstName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }

@@ -9,9 +9,7 @@
 package com.suhail.shopping.user.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.suhail.shopping.common.entity.BaseEntity;
-import org.springframework.context.annotation.EnableMBeanExport;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -56,8 +54,6 @@ public class User extends BaseEntity {
     private User updatedBy;
 
     // constructors
-
-
     public User() {
 
     }
